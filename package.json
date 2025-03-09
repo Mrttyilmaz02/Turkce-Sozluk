@@ -7,11 +7,28 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "svgr": "npx @svgr/cli --native --icon ./src/icons -d ./src/components/icons"
   },
   "dependencies": {
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@react-navigation/stack": "^7.1.1",
+    "components": "^0.1.0",
     "react": "19.0.0",
-    "react-native": "0.78.0"
+    "react-native": "0.78.0",
+    "react-native-gesture-handler": "^2.24.0",
+    "react-native-reanimated": "^3.17.0",
+    "react-native-safe-area-context": "^5.2.0",
+    "react-native-safe-area-view": "^2.0.0",
+    "react-native-screens": "^4.9.1",
+    "react-native-svg": "^15.11.2",
+    "react-native-svg-transformer": "^1.5.0",
+    "react-native-vector-icons": "^10.2.0",
+    "styled": "^1.0.0",
+    "styled-components": "^6.1.15",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -24,6 +41,8 @@
     "@react-native/eslint-config": "0.78.0",
     "@react-native/metro-config": "0.78.0",
     "@react-native/typescript-config": "0.78.0",
+    "@svgr/cli": "^8.1.0",
+    "@svgr/webpack": "^8.1.0",
     "@types/jest": "^29.5.13",
     "@types/react": "^19.0.0",
     "@types/react-test-renderer": "^19.0.0",
